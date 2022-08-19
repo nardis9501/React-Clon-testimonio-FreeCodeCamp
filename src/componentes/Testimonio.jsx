@@ -10,7 +10,7 @@ export function Testimonio(props) {
             <div id='contenedor-testimonio' className="contenedor-texto-testimonio">
                 <p className="nombre-testimonio"><strong>{props.nombre}</strong> en {props.pais}</p>
                 <p className="cargo-testimonio">{props.cargo} de <strong>{props.empresa}</strong></p>
-                <p className="texto-testimonio">"{props.testimonio}"</p>
+                <p className="texto-testimonio">"{props.testimonio1}<b>{props.negrita}</b>{props.testimonio2}"</p>
             </div>
         </div>
     );
